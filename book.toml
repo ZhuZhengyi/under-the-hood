@@ -1,0 +1,24 @@
+[book]
+authors = ["欧长坤"]
+language = "zh"
+multilingual = false
+src = "book"
+title = "Go语言原本"
+
+[build]
+build-dir = "build"
+create-missing = false
+
+[output.html]
+mathjax-support = true
+
+[output.html.print]
+enable = true
+page-break = true
+chapter-name = true
+
+[output.epub]
+#additional-css = ["./path/to/main.css"]
+use-default-css = false
+cover-image = "assets/cover.png"
+#additional-resources = ["./assets/Open-Sans-Regular.ttf"]
